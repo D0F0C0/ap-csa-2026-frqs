@@ -21,7 +21,7 @@ public String getShortenedName(){
 
     for(int i = 0; i < name.length; i++){
         if(remove != -1){
-            name = name.substring(0,i-1)+name(i+1);
+            name = name.substring(0,i-1)+name.substring(i+1);
         }
     }
 
